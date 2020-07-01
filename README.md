@@ -1,5 +1,7 @@
 # Samba in Docker container
 
+[![Build Status](https://github.drone.hodakov.me/api/badges/fat0troll/samba/status.svg)](https://github.drone.hodakov.me/fat0troll/samba)
+
 This repository contains sources for [fat0troll/samba](https://hub.docker.com/repository/docker/fat0troll/samba) - Docker container for as simple as possible sharing experience. After tiny tinkering you will get running Samba, ready to be advertized to local network via external mDNS server like Avahi (and to host Time Machine backups for example).
   
 **Note 1**: This container requires `host` or `macvlan` network type, and will **not** work in `bridge` (default mode) network. See `examples/docker-compose.yml` for details. If you can/want to make it work in `bridge` mode, PRs are welcome (see Note 3).
