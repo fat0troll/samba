@@ -4,7 +4,7 @@ type: docker
 name: build
 
 steps:
-  - name: docker
+  - name: build
     image: plugins/docker
     settings:
       username: fat0troll
